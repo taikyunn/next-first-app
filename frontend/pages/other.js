@@ -2,6 +2,7 @@ import Link from "next/link"
 import other from '@/styles/Other.module.css'
 import Counter from "@/components/Counter"
 import Layout from '@/components/Layout'
+import Image from "@/static/Image"
 
 export default function Other() {
   return(
@@ -16,6 +17,7 @@ export default function Other() {
           </Link>
           <Counter />
         </div>
+        <Image width='250' fileName='image.jpg' />
       </Layout>
     </>
   )
