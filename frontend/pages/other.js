@@ -1,5 +1,6 @@
 import Link from "next/link"
 import other from '@/styles/Other.module.css'
+import Counter from "@/components/Counter"
 
 export default function Other() {
   return(
@@ -11,6 +12,7 @@ export default function Other() {
         <Link href="/">
           &lt;&lt;Back to Index page
         </Link>
+        <Counter />
       </div>
     </>
   )
